@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <manifest package="org.qtav.qmlplayer" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.13.0" android:versionCode="16" android:installLocation="auto">
     <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="QMLPlayer" android:icon="@drawable/icon">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|locale|fontScale|keyboard|keyboardHidden|navigation" android:name="org.qtav.qmlplayer.QMLPlayerActivity" android:label="QtAV QMLPlayer" android:screenOrientation="unspecified" android:launchMode="singleTop">
@@ -48,7 +48,7 @@
             <!-- Background running -->
         </activity>
     </application>
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
 
     <!-- The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.

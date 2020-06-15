@@ -1,4 +1,4 @@
-/******************************************************************************
+﻿/******************************************************************************
     QtAV:  Multimedia framework based on Qt and FFmpeg
     Copyright (C) 2012-2016 Wang Bin <wbsecg1@gmail.com>
 
@@ -96,6 +96,7 @@ Rectangle {
         //loops: MediaPlayer.Infinite
         //autoLoad: true
         autoPlay: true
+        notifyInterval: 10
         videoCodecPriority: PlayerConfig.decoderPriorityNames
         onPositionChanged: control.setPlayingProgress(position/duration)
         videoCapture {
