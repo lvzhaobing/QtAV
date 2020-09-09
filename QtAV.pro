@@ -3,6 +3,9 @@ include(root.pri)
 TEMPLATE = subdirs
 CONFIG -= ordered
 SUBDIRS = libqtav tools
+CONFIG += config_avutil config_avformat config_avcodec config_swscale config_swresample
+CONFIG += recheck
+
 libqtav.file = src/libQtAV.pro
 !no-widgets {
   SUBDIRS += libqtavwidgets
